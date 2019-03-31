@@ -1,12 +1,16 @@
 package net.paass.spring5didemo.controllers;
 
 import net.paass.spring5didemo.services.GreetingService;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Controller;
 
+@Controller
 public class ConstructorInjectedController {
 
   private GreetingService greetingService;
 
-  public ConstructorInjectedController(GreetingService greetingService) {
+  // choose Implementation (class name with lower case)
+  public ConstructorInjectedController(@Qualifier("constructorGreetingService") GreetingService greetingService) {
     this.greetingService = greetingService;
   }
 
