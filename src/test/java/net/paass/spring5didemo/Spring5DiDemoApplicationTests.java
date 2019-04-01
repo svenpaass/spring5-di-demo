@@ -1,4 +1,4 @@
-package net.paass.spring5didemo;
+package guru.springframework;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Spring5DiDemoApplicationTests {
+public class DiDemoApplicationTests {
 
-  @Test
-  public void contextLoads() {
-  }
+	@Test
+	public void contextLoads() {
+	}
 
 }
