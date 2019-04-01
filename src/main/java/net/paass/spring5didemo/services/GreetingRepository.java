@@ -5,9 +5,9 @@ package net.paass.spring5didemo.services;
  */
 public interface GreetingRepository {
 
-    String getEnglishGreeting();
+  String getEnglishGreeting();
 
-    String getSpanishGreeting();
+  String getSpanishGreeting();
 
-    String getGermanGreeting();
+  String getGermanGreeting();
 }
