@@ -16,7 +16,7 @@ public class Spring5DiDemoApplication {
 
     // manually get bean from context
     MyController controller = (MyController) ctx.getBean("myController");
-    controller.sayHello();
+    System.out.println(controller.hello());
 
     // autowired on property needed
     System.out.println(ctx.getBean(PropertyInjectedController.class).sayHello());
