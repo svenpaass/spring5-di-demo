@@ -1,0 +1,37 @@
+# this is a comment
+
+name: Sven
+
+names: # comment
+  - Sven
+  - Silke
+  - Tinka
+
+pound_sign: "#"
+
+
+book:
+  author: Joe Buck
+  publisher: random house
+
+truth: yes
+another_truth: True
+more_true: true
+
+false: no # No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_strin: "my courses: one two three"
+
+include_newlines: |
+  aafasf
+  afaf
+  afaf
+  af
+
+ignore_new_lines: >
+  this is
+  just one long
+  string
+
