@@ -1,0 +1,5 @@
+net.paass:
+  jms:
+    username: JMS Username
+    password: somepassword
+    url: SomeURL
