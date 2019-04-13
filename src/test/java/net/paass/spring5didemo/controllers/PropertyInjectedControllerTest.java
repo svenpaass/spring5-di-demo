@@ -2,7 +2,7 @@ package net.paass.spring5didemo.controllers;
 
 import static org.junit.Assert.assertEquals;
 
-import net.paass.services.GreetingServiceImpl;
+import net.paass.spring5didemo.services.GreetingServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
