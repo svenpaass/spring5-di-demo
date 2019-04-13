@@ -1,4 +1,4 @@
-package net.paass.spring5didemo.services;
+package net.paass.services;
 
 import org.springframework.stereotype.Service;
 

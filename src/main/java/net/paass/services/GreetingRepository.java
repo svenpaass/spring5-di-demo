@@ -1,4 +1,4 @@
-package net.paass.spring5didemo.services;
+package net.paass.services;
 
 /**
  * Created by jt on 5/24/17.

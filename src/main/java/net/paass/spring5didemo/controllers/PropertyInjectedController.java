@@ -1,6 +1,6 @@
 package net.paass.spring5didemo.controllers;
 
-import net.paass.spring5didemo.services.GreetingService;
+import net.paass.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

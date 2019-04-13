@@ -1,4 +1,4 @@
-package net.paass.spring5didemo.services;
+package net.paass.services;
 
 import org.springframework.context.annotation.Primary;
 import org.springframework.context.annotation.Profile;

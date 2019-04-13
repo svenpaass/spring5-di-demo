@@ -7,8 +7,10 @@ import net.paass.spring5didemo.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = { "net.paass.services", "net.paass.spring5didemo" })
 public class Spring5DiDemoApplication {
 
   public static void main(String[] args) {
