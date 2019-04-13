@@ -2,6 +2,7 @@ package net.paass.spring5didemo;
 
 import net.paass.spring5didemo.controllers.MyController;
 import net.paass.spring5didemo.examplebeans.FakeDataSource;
+import net.paass.spring5didemo.examplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -18,6 +19,10 @@ public class Spring5DiDemoApplication {
 
     FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
     System.out.println("Properties: " + fakeDataSource);
+
+    FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+    System.out.println("Properties: " + fakeJmsBroker);
+
   }
 
 }
