@@ -3,3 +3,11 @@ net.paass:
     username: JMS Username
     password: somepassword
     url: SomeURL
+
+---
+spring:
+  profiles: de
+
+net.paass:
+  jms:
+    username: JMS DE-YAML Username
